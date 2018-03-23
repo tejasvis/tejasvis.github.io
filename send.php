@@ -3,8 +3,8 @@ if(isset($_POST['firstname']) && isset($_POST['lastname']) && isset($_POST['emai
 
 	$firstname = 	$_POST['firstname'];
 	$lastname = 	$_POST['lastname'];
-	$email = 		$_POST['email'];
-	$message = 		$_POST['message'];
+	$email = 	$_POST['email'];
+	$message = 	$_POST['message'];
 	
 	$mail = new PHPMailer();
 	
